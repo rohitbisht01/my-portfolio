@@ -2,6 +2,7 @@ import React from "react";
 import "./Portfolio.css";
 import covid19 from "../../assests/covid19.png";
 import amazonclone from "../../assests/amazonclone.png";
+import camping from "../../assests/camping.png";
 
 const data = [
   {
@@ -20,25 +21,25 @@ const data = [
   },
   {
     id: 3,
-    image: covid19,
-    title: "Covid-19 Tracker",
-    github: "https://github.com/rohitbisht01/Covid-19-Tracker",
-    demo: "https://covid19-tracr.herokuapp.com/",
+    image: camping,
+    title: "Camping Site (under construction)",
+    github: "https://github.com/rohitbisht01/my-camping-site",
+    demo: "https://github.com/rohitbisht01/my-camping-site",
   },
-  {
-    id: 4,
-    image: amazonclone,
-    title: "Amazon Clone",
-    github: "https://github.com/rohitbisht01/Amazon-clone",
-    demo: "https://clone-ceacd.web.app/",
-  },
-  {
-    id: 5,
-    image: amazonclone,
-    title: "Amazon Clone",
-    github: "https://github.com/rohitbisht01/Amazon-clone",
-    demo: "https://clone-ceacd.web.app/",
-  },
+  // {
+  //   id: 4,
+  //   image: amazonclone,
+  //   title: "Amazon Clone",
+  //   github: "https://github.com/rohitbisht01/Amazon-clone",
+  //   demo: "https://clone-ceacd.web.app/",
+  // },
+  // {
+  //   id: 5,
+  //   image: amazonclone,
+  //   title: "Amazon Clone",
+  //   github: "https://github.com/rohitbisht01/Amazon-clone",
+  //   demo: "https://clone-ceacd.web.app/",
+  // },
 ];
 
 const Portfolio = () => {
@@ -55,10 +56,20 @@ const Portfolio = () => {
               </div>
               <h3>{title}</h3>
               <div className="portfolio__item__cta">
-                <a href={github} className="btn" target="_blank">
+                <a
+                  href={github}
+                  className="btn"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Github
                 </a>
-                <a href={demo} className="btn btn-primary" target="_blank">
+                <a
+                  href={demo}
+                  rel="noreferrer"
+                  className="btn btn-primary"
+                  target="_blank"
+                >
                   Live Demo
                 </a>
               </div>
