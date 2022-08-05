@@ -1,4 +1,22 @@
+# Snapshot of the portfolio page
+## Sections
+1. About Me
+2. My Experience
+3. Projects I have worked on
+4. Contact Me
+5. Footer
+
+## Snapshot 1
+
+![portfolio 2](https://user-images.githubusercontent.com/70256801/183111555-8524aa4e-3f63-4d56-82d5-d52126bfd686.png)
+
+## Snapshot 2
+
+![portfolio1](https://user-images.githubusercontent.com/70256801/183111539-80b0fae8-f96b-47ea-b4ea-0b55322b68ab.png)
+
+
 # Getting Started with Create React App
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
