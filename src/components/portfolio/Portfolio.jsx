@@ -3,6 +3,7 @@ import "./Portfolio.css";
 import covid19 from "../../assests/covid19.png";
 import amazonclone from "../../assests/amazonclone.png";
 import camping from "../../assests/camping.png";
+import chat from "../../assests/chat.jpg";
 
 const data = [
   {
@@ -22,24 +23,17 @@ const data = [
   {
     id: 3,
     image: camping,
-    title: "Camping Site (under construction)",
+    title: "Camping Site",
     github: "https://github.com/rohitbisht01/my-camping-site",
     demo: "https://github.com/rohitbisht01/my-camping-site",
   },
-  // {
-  //   id: 4,
-  //   image: amazonclone,
-  //   title: "Amazon Clone",
-  //   github: "https://github.com/rohitbisht01/Amazon-clone",
-  //   demo: "https://clone-ceacd.web.app/",
-  // },
-  // {
-  //   id: 5,
-  //   image: amazonclone,
-  //   title: "Amazon Clone",
-  //   github: "https://github.com/rohitbisht01/Amazon-clone",
-  //   demo: "https://clone-ceacd.web.app/",
-  // },
+  {
+    id: 4,
+    image: chat,
+    title: "Chat Application",
+    github: "https://github.com/rohitbisht01/chit-chat--application",
+    demo: "https://github.com/rohitbisht01/chit-chat--application",
+  },
 ];
 
 const Portfolio = () => {
