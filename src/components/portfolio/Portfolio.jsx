@@ -5,6 +5,7 @@ import amazonclone from "../../assests/amazonclone.png";
 import camping from "../../assests/camping.png";
 import chat from "../../assests/chat.jpg";
 
+// added another project here
 const data = [
   {
     id: 1,
